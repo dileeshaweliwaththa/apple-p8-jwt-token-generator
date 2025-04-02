@@ -1,0 +1,17 @@
+# Apple Sign In JWT Token Configuration
+
+# Path to your private key file (update this with the correct path)
+# Can be absolute path or relative to the script directory
+key_file: 'AuthKey_XXXX.p8'
+
+# Your Apple Developer Team ID
+team_id: '67XXXXXXX7'
+
+# Your Services ID (Client ID)
+client_id: 'com.xxx.yyy'
+
+# Your Key ID
+key_id: 'XX34FFCCXX'
+
+# Token validity period in days (maximum 180 days)
+validity_period: 180
