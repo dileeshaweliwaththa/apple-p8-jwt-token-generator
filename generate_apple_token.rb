@@ -7,13 +7,13 @@ require 'fileutils'
 
 # Function to create configuration file if it doesn't exist
 def create_default_config(config_path)
-  default_config = {
-    'key_file' => 'AuthKey_QD7D6V8ACV.p8',
-    'team_id' => '5Z3V2Q7QN7',
-    'client_id' => 'com.chexcaliburapp',
-    'key_id' => 'QD7D6V8ACV',
-    'validity_period' => 180
-  }
+ # default_config = {
+ #   'key_file' => '',
+ #   'team_id' => '',
+ #   'client_id' => '',
+ #   'key_id' => '',
+ #   'validity_period' => 180
+ # }
   
   FileUtils.mkdir_p(File.dirname(config_path))
   File.open(config_path, 'w') do |file|
